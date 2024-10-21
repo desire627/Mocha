@@ -21,3 +21,7 @@ it('should return 4 when multiplying 2 and 2', () => {
     assert.equal(multiply(4, 4), 16);
   });
   
+  it('should return 1035 when multiplying 23 and 45', () => {
+    assert.equal(multiply(23, 45), 23 * 45);
+  });
+  
